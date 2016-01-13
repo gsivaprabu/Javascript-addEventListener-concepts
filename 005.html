@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+    body {
+        height: 1366px;
+        width: 800px;
+    }
+    </style>
+</head>
+
+<body>
+    <p>This example uses the addEventListener() method on the window object.</p>
+    <p>Try resizing this browser window to trigger the "resize" event handler.</p>
+    <p id="demo"></p>
+    <script>
+    window.addEventListener("mouseover", function() {
+        document.getElementById("demo").innerHTML = Math.random();
+    });
+    </script>
+</body>
+
+</html>
